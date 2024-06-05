@@ -17,7 +17,7 @@ searchInput.addEventListener("input",(e)=>{
 getCharacters();
 
 function getCharacters(){
-    fetch("https://potterhead-api.vercel.app/api/characters")
+    fetch("https://harrypotter-backend-api-workshop.onrender.com/characters")
     .then(res=>res.json())
     .then(data=>{
         console.log(data);
